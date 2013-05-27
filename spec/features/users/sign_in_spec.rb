@@ -48,7 +48,7 @@ feature 'User sign in' do
     fill_in "Email", :with => other_account.owner.email
     fill_in "Password", :with => "password"
     click_button "Sign in"
-    page.should have_content("Invalid email and password.")
+    page.should have_content("Invalid email or password.")
     page.current_url.should == sign_in_url
   end  
 end
