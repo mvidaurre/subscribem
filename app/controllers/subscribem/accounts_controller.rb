@@ -1,7 +1,7 @@
 require_dependency "subscribem/application_controller"
 
 module Subscribem
-  class AccountsController < ApplicationController
+  class AccountsController < Subscribem::ApplicationController
 
     def new
       @account = Subscribem::Account.new

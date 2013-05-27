@@ -26,4 +26,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'rspec-rails', '2.12.2'
   s.add_development_dependency 'capybara', '2.0.2'
   s.add_development_dependency 'launchy'
+  s.add_development_dependency 'factory_girl', '4.1.0'
 end
